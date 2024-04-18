@@ -1185,6 +1185,7 @@ body {
 
 #ast-desktop-header {
     max-width: 1200px;
+    margin: auto;
 }
 
 #ast-desktop-header .main-header-menu .sub-menu .menu-item.menu-item-has-children>.menu-link .icon-arrow {
