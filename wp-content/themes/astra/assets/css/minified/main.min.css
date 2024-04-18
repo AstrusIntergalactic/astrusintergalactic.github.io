@@ -256,7 +256,7 @@ th {
     margin-left: auto;
     margin-right: auto;
     padding-left: 0px;
-    padding-right: 20px
+    padding-right: 0px;
 }
 
 .ast-row {
@@ -1086,7 +1086,6 @@ body {
     height: 100%;
     -js-display: inline-flex;
     display: inline-flex;
-    max-width: 1200px;
 }
 
 .main-navigation ul {
@@ -1182,6 +1181,10 @@ body {
 
 .main-header-menu .sub-menu .menu-item:not(.menu-item-has-children) .menu-link .icon-arrow:first-of-type {
     display: none
+}
+
+#ast-desktop-header {
+    max-width: 1200px;
 }
 
 #ast-desktop-header .main-header-menu .sub-menu .menu-item.menu-item-has-children>.menu-link .icon-arrow {
